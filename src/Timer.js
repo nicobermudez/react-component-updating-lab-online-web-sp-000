@@ -11,8 +11,8 @@ class Timer extends Component {
     }
   }
 
-  shouldComponentUpdate() {
-    
+  shouldComponentUpdate(nextProps, nextState) {
+
   }
 
   componentDidUpdate() {
