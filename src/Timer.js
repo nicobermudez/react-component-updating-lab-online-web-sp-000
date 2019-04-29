@@ -11,6 +11,10 @@ class Timer extends Component {
     }
   }
 
+  componentDidUpdate() {
+
+  }
+  
   componentDidMount() {
     this.interval = setInterval(this.clockTick, this.props.updateInterval*1000)
   }
