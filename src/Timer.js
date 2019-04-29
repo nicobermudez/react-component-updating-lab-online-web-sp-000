@@ -12,7 +12,7 @@ class Timer extends Component {
   }
 
   shouldComponentUpdate() {
-    
+
   }
   
   componentDidUpdate() {
